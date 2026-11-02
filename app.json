@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ServiCerca",
+    "slug": "ServiCerca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "mx.servicerca.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "ServiCerca usa tu ubicaci\u00f3n solo para mostrarte prestadores cercanos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "mx.servicerca.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "primaryColor": "#14365E"
+  }
+}
